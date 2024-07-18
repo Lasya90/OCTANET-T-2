@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2vh;
+    background-image: url('old.avif'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px; /* Add margin for spacing */
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for todo items */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.todo__value {
+    flex: 1; /* Allow input to expand */
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; /* Add space between input and checkbox */
+}
+
+.todo__checkbox {
+    vertical-align: middle;
+}
